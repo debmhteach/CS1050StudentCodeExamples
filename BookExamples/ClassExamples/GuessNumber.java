@@ -1,12 +1,10 @@
 /**
- * 
- */
-
-import java.util.Scanner; 
-/**
  * This program takes user input to see if they can guess the 
  * random number generated
  */
+
+import java.util.Scanner; 
+
 public class GuessNumber {
 
 	/**
