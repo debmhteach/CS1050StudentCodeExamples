@@ -51,7 +51,9 @@ public class M03SwapMethod
 	public static void swap (int num1, int num2) {
 		
 		System.out.println("\n***In swap method***");
-		System.out.println("before swap num1 = " + num1 + "  num2 = " + num2);
+		System.out.println("before swap ");
+		System.out.println ("num1 = " + num1);                  
+		System.out.println ("num2 = " + num2);
 		
 		// Swap the values
 		int temp = num1;
