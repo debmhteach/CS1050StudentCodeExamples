@@ -43,8 +43,9 @@ public class M03SwapMethod
 	
 	
 	/*
-	Swaps numbers if the first number is larger than second number
-	Then display first and second number
+	Swaps two numbers so the first number is stored in the second number variable
+	and the second number variable is stored in the first.
+	Displays first and second number before and after swap
 	Parameter:  int num1 is first number, num2 is second number
 	*/
 	public static void swap (int num1, int num2) {
@@ -57,7 +58,9 @@ public class M03SwapMethod
 		num1 = num2;
 		num2 = temp;
 		
-		System.out.println("After swap:   num1 = " + num1 + " num2 = " + num2);
+		System.out.println("After swap:");
+		System.out.println ("num1 = " + num1);                  
+		System.out.println ("num2 = " + num2);
 		System.out.println("*** End swap method ***");
 	} // swap
 	
