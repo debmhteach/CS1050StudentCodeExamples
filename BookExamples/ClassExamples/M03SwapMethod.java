@@ -86,13 +86,12 @@ public class M03SwapMethod
 			
 	    }
 		
-
 		return positiveNumber;
 		
 	} // end of sum
 	
 	/*
-	Description: Get sum of numbers from 1 to maxNumber
+	Description: Get sum of numbers from 1 to positiveNumber
 	Parameter: Integer maxNumber
 	Return: Integer totalSum
 	*/	
